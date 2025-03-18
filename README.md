@@ -1,78 +1,80 @@
-#project name: webpage
-#description: a simle webpage with css and html.
+#project name: Webpage
+##design: 
 
-##Design:
+
 <!DOCTYPE html>
+
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EmpowerJobs - Inclusive Job Portal</title>
+    <title>InclusiveHire - Job Portal</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            background-color: #e3f2fd;
             margin: 0;
             padding: 0;
             text-align: center;
         }
         header {
-            background: #2c3e50;
+            background: #1565c0;
             color: white;
             padding: 20px;
-            font-size: 24px;
+            font-size: 26px;
         }
         .container {
-            max-width: 800px;
+            max-width: 900px;
             margin: 20px auto;
             background: white;
-            padding: 20px;
+            padding: 25px;
             border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
         }
         .btn {
-            background: #27ae60;
+            background: #ff7043;
             color: white;
-            padding: 10px 20px;
+            padding: 12px 24px;
             border: none;
             cursor: pointer;
             font-size: 18px;
             border-radius: 5px;
         }
         .btn:hover {
-            background: #219150;
+            background: #e64a19;
         }
         input, select, textarea {
             width: 100%;
-            padding: 10px;
-            margin: 10px 0;
+            padding: 12px;
+            margin: 12px 0;
             border: 1px solid #ccc;
-            border-radius: 5px;
+            border-radius: 6px;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>EmpowerJobs - Find Inclusive Opportunities</h1>
+        <h1>InclusiveHire - Empowering Careers</h1>
     </header>
     <div class="container">
-        <h2>Search for Jobs</h2>
+        <h2>Find Your Dream Job</h2>
         <input type="text" placeholder="Enter job title or keyword">
         <select>
-            <option>Choose Category</option>
-            <option>IT & Software</option>
-            <option>Customer Support</option>
-            <option>Education</option>
+            <option>Select Industry</option>
+            <option>Technology</option>
             <option>Healthcare</option>
+            <option>Education</option>
+            <option>Finance</option>
         </select>
-        <button class="btn">Search</button>
+        <button class="btn">Search Jobs</button>
     </div>
     <div class="container">
-        <h2>Contact Us</h2>
-        <input type="text" placeholder="Your Name">
-        <input type="email" placeholder="Your Email">
-        <textarea placeholder="Your Message" rows="4"></textarea>
-        <button class="btn">Submit</button>
+        <h2>Get in Touch</h2>
+        <input type="text" placeholder="Your Full Name">
+        <input type="email" placeholder="Your Email Address">
+        <textarea placeholder="Your Message" rows="5"></textarea>
+        <button class="btn">Send Message</button>
     </div>
 </body>
 </html>
